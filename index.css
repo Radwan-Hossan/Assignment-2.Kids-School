@@ -1,0 +1,126 @@
+/* nav bar... */
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.school-div{
+    display: flex;
+}
+.logo{
+    width: 62px;
+    height: 62px;
+    border: 2px solid red;
+}
+.list-ul{
+    display: flex;
+    list-style: none;
+}
+
+/* header section */
+
+.header{
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+.banner{
+    display: flex;
+    margin-bottom: 60px;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-div{
+    /* margin-top: 122px;
+    mar */
+    justify-content: center;
+    width: 640px;
+    height: 331px;
+    margin-right: 50px;
+
+}
+.hero-img{
+    width: 468px;
+    height: 575px;
+}
+
+/* standaried carriculum */
+
+.std-text{
+    font: bold;
+    font-size: 2.98rem;
+    justify-content: center;
+}
+
+.std-head{
+    background-image: url(assets/bg.png);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.std-crr{
+    margin-top: 80px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+/* .child{
+    width: 368px;
+    height: 476px;
+    border: 2px solid red;
+    border-radius: 18.86px;
+    justify-content: center;
+    align-content: center;
+    background-image: linear-gradient(#FFF4DC, #FFFFFF);
+    /* box-shadow:inset 2px 10px  #DEF5FF; */
+ 
+
+.child-1{
+    width: 368px;
+    height: 476px;
+    border-radius: 18.86px;
+    justify-content: center;
+    align-content: center;
+    background-image: linear-gradient(#DEF5FF, #FFFFFF);
+}
+
+.child-2{
+    width: 368px;
+    height: 476px;
+    margin-left: 28px;
+    margin-right: 28px;
+    border-radius: 18.86px;
+    justify-content: center;
+    align-content: center;
+    background-image: linear-gradient(#FFF4DC, #FFFFFF);
+}
+
+.child-3{
+    width: 368px;
+    height: 476px;
+    border-radius: 18.86px;
+    justify-content: center;
+    align-content: center;
+    background-image: linear-gradient(#F2E8FF, #FFFFFF);
+}
+
+.kinder-p{
+    color: #64C8FF;
+    list-style: none;
+}
+.elementary-p{
+    color: #F0AA00;
+}
+.middle-p{
+    color: #8700FF;
+}
+
+.story-section{
+    justify-content: center;
+    align-items: center;
+}
