@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment 2</title>
     <link rel="stylesheet" href="index.css">
+    
 </head>
 <body>
     
@@ -15,14 +17,14 @@
         </div>
         
         <ul class="list-ul">
-                <li>Home</li>
-                <li>About</li>
-                <li>Facilities</li>
-                <li>Admission</li>
+                <li><span class="home">Home</span></li>
+                <li><span class="about">About</span></li>
+                <li><span class="facilities">Facilities</span></li>
+                <li><span class="admission">Admission</span></li>
         </ul>
         
         <div class="btn-div">
-            <button>
+            <button class="btn">
                 Contact
             </button>
         </div>
@@ -30,14 +32,16 @@
     <header class="header">
         <section class="banner">
             <div class="banner-div">
-                <h2>
-                    Empowering
-                    students from small age towards vision
+                <h2 class="em-student">
+                    <span class="empowering">Empowering</span>
+                    students from small age <span class="towerds-vision">towards vision</span>
+                    
+                    
                 </h2>
                 <p>
                     With the courage, Confidence, Creativity and Compassion to make their Unique Contribution in a Diverse and Dynamic World.
                 </p>
-                <button>
+                <button class="enroll-btn">
                     Enroll Now
                 </button>
             </div>
@@ -81,32 +85,121 @@
                     </p>
                 </div>
             </div>
-            <div>
-                
-                <img src="" alt="">
-                <img src="" alt="">
-
-            </div>
+          <!-- <!less then and greter then ite-- >  -->
         </section>
-        <section class="story-section">
-            <h1>
-                Our Stories
-            </h1>
-            <div>
-                <div class="story-div">
-                    <img src="assets/story-1.png" alt="">
-                </div>
-                <div class="grid-div">
-                    <img src="assets/story-2.png" alt="">
-                    <img src="assets/story-3.png" alt="">
-                    <img src="assets/story-4.png" alt="">
-                    <img src="assets/story-5.png" alt="">
-                </div>
-                <button>
-                    View All
-                </button>
-            </div>
-        </section>
+        
     </header>
+    <main class="main">
+        <div class="story-div">
+            <div>
+                <h1 class="our-stories">
+                    Our Stories
+                </h1>
+            </div>
+            <div class="inner-div">
+                <div class="story-one">
+                    <img class="story-1" src="assets/story-1.png" alt="">
+                    <button class="date-btn">
+                        November 19,2019
+                    </button>
+                    <div>
+                        <h3 class="pra">
+                            A fun toddler coloring training on
+                            classroom
+                        </h3>
+                        <p class="pra">
+                            Beautiful branding for changes by Never Now in Australia.
+                            changes is a platform for open discussion in an inclusive and
+                            collaborative environment, providing the...
+                        </p>
+                    </div>
+                </div>
+
+                <div class="grid-div">
+                    <div class="story-two">
+                        <img class="story-2" src="assets/story-2.png" alt="">
+                        <button class="date-btn">
+                            November 19.2019
+                        </button>
+                        <p class="pra">
+                            Find out if a school fits the
+                            family’s needs
+                        </p>
+                    </div>
+                    <div class="story-three">
+                        <img class="story-3" src="assets/story-3.png" alt="">
+                        <button class="date-btn">
+                            November 19.2019
+                        </button>
+                        <p class="pra">
+                            Summer math & literacy
+centres for kids
+                        </p>
+                    </div >
+                    <div class="story-four">
+                        <img class="story-4" src="assets/story-4.png" alt="">
+                        <button class="date-btn">
+                            November 19.2019
+                        </button>
+                        <p class="pra">
+                            Classroom management
+techniques for new tutors
+                        </p>
+                    </div>
+                    <div class="story-five">
+                        <img class="story-5" src="assets/story-5.png" alt="">
+                        <button class="date-btn">
+                            November 19.2019
+                        </button>
+                        <p class="pra">
+                            Conversation rhymes
+                            improve kids listening.
+                        </p>
+                    </div>
+                </div>
+                
+            </div>
+            <button class="enroll-btn view-btn">
+                View All
+            </button>
+        </div>
+    </main>
+    <footer class="footer">
+        <section class="last-section">
+            <div class="footer-inner-div">
+                <div class="last-div">
+                    <img src="assets/logo.png" alt="">
+                    <h1>
+                        Kids Education
+                    </h1>
+                </div>
+                <p>
+                    Pizza ipsum dolor meat lovers buffalo. Deep dolor roll melted bacon Bianca pan bacon pineapple Aussie. Mayo rib sauce Hawaiian meatball.
+                </p>
+            </div>
+            <div class="about-school">
+                <h2>
+                    About School
+                </h2>
+                <ul class="about-school">
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Facilities</li>
+                    <li>Admission</li>
+                </ul>
+            </div>
+            <div class="div">
+                <h2>
+                    Keep in Tuch
+                </h2>
+                <div class="img-logo">
+                    <img src="assets/dribble.png" alt="">
+                    <img src="assets/google+.png" alt="">
+                    <img src="assets/twitter.png" alt="">
+                    <img src="assets/fb.png" alt="">
+                </div>
+            </div>
+        </section>
+    </footer>
 </body>
 </html>

@@ -1,3 +1,12 @@
+
+
+.quicksand-fonts {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
 /* nav bar... */
 .nav-bar{
     display: flex;
@@ -21,6 +30,31 @@
     list-style: none;
 }
 
+.home{
+    font: bold;
+    color: orange;
+    margin-right: 32px;
+}
+.about{
+    color: skyblue;
+    margin-right: 32px;
+}
+.facilities{
+    color: #05D4DF;
+    margin-right: 32px;
+}
+.admission{
+    color:#5D58EF;
+}
+
+
+.btn{
+    background-color: orange;
+    width: 197px;
+    border-radius: 8px;
+    height: 50px;
+}
+
 /* header section */
 
 .header{
@@ -41,6 +75,29 @@
     width: 640px;
     height: 331px;
     margin-right: 50px;
+
+}
+.em-student{
+    font-size: 3.5rem;
+    font: bold;
+}
+
+.empowering{
+    color: orange;
+}
+.towerds-vision{
+    color: skyblue;
+}
+.enroll-btn{
+    width: 197px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 12px;
+    background-color: black;
+    color: #FFFFFF;
+}
+
+.view-btn{
 
 }
 .hero-img{
@@ -120,7 +177,126 @@
     color: #8700FF;
 }
 
-.story-section{
+/* .our-stories{
     justify-content: center;
     align-items: center;
+    align-content: center;  }*/
+    
+
+/* story section  */
+
+.story-div{
+    background-image: url(assets/bg.png);
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+    margin-top: 60px;
+    background-image: linear-gradient(#FFFFFF , #efc06e);
+}
+
+.inner-div{
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-top: 80px;
+    display: flex;
+    margin-bottom: 80px;
+}
+
+
+
+
+.story-one{
+    border-radius: 16px;
+    /* width: 530px; */
+    background-color: #FFFFFF;
+    justify-content: left;
+}
+
+.story-1{
+    border-radius: 16px;
+    width: 100%;
+    height: 337px;
+    /* margin-right: 10px; */
+    margin-bottom: 32px;
+}
+
+.pra{
+    padding: 20px;
+    text-align: left;
+}
+
+.story-two,.story-three, .story-four,.story-five{
+    margin: 9px;
+    height: 301px;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+}
+
+
+.story-2, .story-3,.story-4, .story-5{
+    width: 280px ;
+    height: 177px; 
+    border-radius: 16px;
+
+}
+
+.grid-div{
+    display: grid;
+    grid-template-areas: 
+    "story-two story-three"
+    "story-four story-five";
+}
+
+.view-btn{
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+/* footer section  */
+
+.footer{
+    background-color:#01ACFD ;
+    color: #FFFFFF;
+}
+
+.last-section{
+    margin-left: 140px;
+    margin-right: 228px;
+    display: flex;
+    padding-top: 115px;
+    padding-bottom: 115px;
+    justify-content: space-between;
+}
+
+.last-div{
+    display:flex;
+}
+
+.footer-inner-div{
+    width: 400px;
+    /* justify-items: center; */
+    /* justify-content: center; */
+}
+
+.img-logo{
+    display: flex;
+}
+
+.about-school{
+    list-style: none;
+    text-align: left;
+}
+
+li{
+    list-style: none;
+}
+
+/* shered item */
+
+.date-btn{
+    width: 174px;
+    height: 48px;
+    margin-top: -30px;
+    margin-left: -30px;
+    background-color: #036671;
+    border-radius: 48px;
 }
