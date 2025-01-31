@@ -23,7 +23,6 @@
 .logo{
     width: 62px;
     height: 62px;
-    border: 2px solid red;
 }
 .list-ul{
     display: flex;
@@ -300,3 +299,5 @@ li{
     background-color: #036671;
     border-radius: 48px;
 }
+
+
